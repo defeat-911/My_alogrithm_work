@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / report pipeline
+node_modules/
+package-lock.json
+
+# Generated experiment runs (keep summary.csv)
+results/run_*/
+results/**/routes_*.json
+results/**/*.tmp
+results/benchmark_*.log
+results/summary_500.json
+results/metrics_500.csv
+results/summary_merged.json
+results/metrics_merged.csv
+results/test_solve.json
+
+# Report intermediates (keep report.md, figures, final docx/pdf)
+docs/report/report_body.docx
+docs/report/report_base.docx
+docs/report/report_draft.docx
+docs/report/report_draft.pdf
+docs/report/sample_body.docx
+docs/report/sample_merged.docx
+docs/report/sample_merged.pdf
+docs/report/figures/sample.png
+
+# Office temp files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

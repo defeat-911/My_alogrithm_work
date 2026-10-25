@@ -1,0 +1,60 @@
+project:
+  seed: 1
+  scales: [100, 300, 500]
+  seeds: [1, 2, 3, 4, 5]
+
+campus:
+  map_file: data/campus.json
+  chute_capacity_packages: 60
+  chute_capacity_kg: 40.0
+
+packages:
+  priority_probs:
+    1: 0.65
+    2: 0.25
+    3: 0.10
+  weight_min_kg: 0.2
+  weight_max_kg: 3.0
+  heavy_fraction: 0.10
+  light_max_kg: 0.8
+  buckets:
+    - {id: 0, start: "08:00", end: "10:00"}
+    - {id: 1, start: "10:00", end: "12:00"}
+    - {id: 2, start: "14:00", end: "16:00"}
+    - {id: 3, start: "16:00", end: "18:00"}
+  min_per_point: 1
+
+couriers:
+  count: 4
+  capacity_packages: 160
+  capacity_kg: 120.0
+  speed_mps: 4.0
+  shift_start: "08:00"
+  shift_end: "18:00"
+  service_s_per_stop: 60
+  service_s_per_package: 20
+
+objective:
+  weights:
+    distance: 0.45
+    makespan: 0.25
+    priority: 0.20
+    balance: 0.10
+
+sorting:
+  kmeans_restarts: 10
+  max_iter: 100
+  capacity_penalty: 1000.0
+  cv_penalty: 5000.0
+  local_search_time_s: 5.0
+
+routing:
+  hard_windows: true
+  alns_iterations: 2000
+  alns_quick_iterations: 300
+  destroy_fraction: 0.15
+  t0_ratio: 0.05
+  tend_ratio: 0.001
+  segment: 100
+  reaction: 0.2
+  time_limit_s: 30.0

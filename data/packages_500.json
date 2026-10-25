@@ -1,0 +1,5532 @@
+{
+  "meta": {
+    "n": 500,
+    "seed": 1,
+    "generator": "campus_express 0.1.0",
+    "campus": "河南理工大学校园（模拟）",
+    "buckets": [
+      {
+        "id": 0,
+        "start": "08:00",
+        "end": "10:00"
+      },
+      {
+        "id": 1,
+        "start": "10:00",
+        "end": "12:00"
+      },
+      {
+        "id": 2,
+        "start": "14:00",
+        "end": "16:00"
+      },
+      {
+        "id": 3,
+        "start": "16:00",
+        "end": "18:00"
+      }
+    ]
+  },
+  "packages": [
+    {
+      "id": "PKG000001",
+      "dest_id": "A01",
+      "weight_kg": 0.497,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000002",
+      "dest_id": "C01",
+      "weight_kg": 0.256,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000003",
+      "dest_id": "C02",
+      "weight_kg": 0.657,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000004",
+      "dest_id": "C03",
+      "weight_kg": 0.681,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000005",
+      "dest_id": "D01",
+      "weight_kg": 0.218,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000006",
+      "dest_id": "D02",
+      "weight_kg": 0.429,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000007",
+      "dest_id": "D03",
+      "weight_kg": 0.517,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000008",
+      "dest_id": "D04",
+      "weight_kg": 0.407,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000009",
+      "dest_id": "D05",
+      "weight_kg": 0.756,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000010",
+      "dest_id": "D06",
+      "weight_kg": 0.796,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000011",
+      "dest_id": "D07",
+      "weight_kg": 0.737,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000012",
+      "dest_id": "D08",
+      "weight_kg": 0.746,
+      "priority": 3,
+      "window": {
+        "start": "16:00",
+        "end": "17:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000013",
+      "dest_id": "D09",
+      "weight_kg": 0.729,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000014",
+      "dest_id": "D10",
+      "weight_kg": 0.221,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000015",
+      "dest_id": "D11",
+      "weight_kg": 0.304,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000016",
+      "dest_id": "D12",
+      "weight_kg": 2.26,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000017",
+      "dest_id": "E01",
+      "weight_kg": 0.436,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000018",
+      "dest_id": "E02",
+      "weight_kg": 0.385,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000019",
+      "dest_id": "G01",
+      "weight_kg": 0.301,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000020",
+      "dest_id": "H01",
+      "weight_kg": 0.524,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000021",
+      "dest_id": "I01",
+      "weight_kg": 0.406,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000022",
+      "dest_id": "L01",
+      "weight_kg": 0.362,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000023",
+      "dest_id": "T01",
+      "weight_kg": 0.714,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000024",
+      "dest_id": "T02",
+      "weight_kg": 0.537,
+      "priority": 3,
+      "window": {
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000025",
+      "dest_id": "T03",
+      "weight_kg": 0.419,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000026",
+      "dest_id": "T04",
+      "weight_kg": 0.414,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000027",
+      "dest_id": "T05",
+      "weight_kg": 0.217,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000028",
+      "dest_id": "T06",
+      "weight_kg": 0.308,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000029",
+      "dest_id": "T07",
+      "weight_kg": 2.876,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000030",
+      "dest_id": "T08",
+      "weight_kg": 0.652,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000031",
+      "dest_id": "D05",
+      "weight_kg": 0.242,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000032",
+      "dest_id": "D03",
+      "weight_kg": 0.589,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000033",
+      "dest_id": "D05",
+      "weight_kg": 0.214,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000034",
+      "dest_id": "D06",
+      "weight_kg": 0.352,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000035",
+      "dest_id": "D12",
+      "weight_kg": 0.212,
+      "priority": 3,
+      "window": {
+        "start": "16:00",
+        "end": "17:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000036",
+      "dest_id": "D01",
+      "weight_kg": 0.504,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000037",
+      "dest_id": "D07",
+      "weight_kg": 0.589,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000038",
+      "dest_id": "D06",
+      "weight_kg": 0.456,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000039",
+      "dest_id": "D12",
+      "weight_kg": 0.384,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000040",
+      "dest_id": "T03",
+      "weight_kg": 0.45,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000041",
+      "dest_id": "D04",
+      "weight_kg": 0.331,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000042",
+      "dest_id": "T05",
+      "weight_kg": 0.408,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000043",
+      "dest_id": "D03",
+      "weight_kg": 0.495,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000044",
+      "dest_id": "T06",
+      "weight_kg": 2.147,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000045",
+      "dest_id": "D07",
+      "weight_kg": 0.397,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000046",
+      "dest_id": "T08",
+      "weight_kg": 0.36,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000047",
+      "dest_id": "D02",
+      "weight_kg": 0.703,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000048",
+      "dest_id": "D09",
+      "weight_kg": 0.889,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000049",
+      "dest_id": "D02",
+      "weight_kg": 0.399,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000050",
+      "dest_id": "D08",
+      "weight_kg": 0.375,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000051",
+      "dest_id": "T03",
+      "weight_kg": 0.531,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000052",
+      "dest_id": "D02",
+      "weight_kg": 0.795,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000053",
+      "dest_id": "D03",
+      "weight_kg": 0.669,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000054",
+      "dest_id": "D06",
+      "weight_kg": 0.771,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000055",
+      "dest_id": "D06",
+      "weight_kg": 0.366,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000056",
+      "dest_id": "L01",
+      "weight_kg": 0.209,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000057",
+      "dest_id": "D07",
+      "weight_kg": 0.671,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000058",
+      "dest_id": "D09",
+      "weight_kg": 0.345,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000059",
+      "dest_id": "D12",
+      "weight_kg": 0.526,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000060",
+      "dest_id": "T02",
+      "weight_kg": 0.325,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000061",
+      "dest_id": "D05",
+      "weight_kg": 0.392,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000062",
+      "dest_id": "D06",
+      "weight_kg": 0.782,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000063",
+      "dest_id": "T07",
+      "weight_kg": 0.667,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000064",
+      "dest_id": "T04",
+      "weight_kg": 0.355,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000065",
+      "dest_id": "D09",
+      "weight_kg": 0.692,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000066",
+      "dest_id": "D02",
+      "weight_kg": 0.586,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000067",
+      "dest_id": "T06",
+      "weight_kg": 1.211,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000068",
+      "dest_id": "T01",
+      "weight_kg": 0.261,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000069",
+      "dest_id": "D10",
+      "weight_kg": 0.212,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000070",
+      "dest_id": "D04",
+      "weight_kg": 0.213,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000071",
+      "dest_id": "C02",
+      "weight_kg": 0.718,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000072",
+      "dest_id": "D03",
+      "weight_kg": 2.888,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000073",
+      "dest_id": "D03",
+      "weight_kg": 0.392,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000074",
+      "dest_id": "D02",
+      "weight_kg": 0.324,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000075",
+      "dest_id": "D09",
+      "weight_kg": 0.574,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000076",
+      "dest_id": "D11",
+      "weight_kg": 0.46,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000077",
+      "dest_id": "D03",
+      "weight_kg": 0.239,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000078",
+      "dest_id": "T07",
+      "weight_kg": 0.711,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000079",
+      "dest_id": "D07",
+      "weight_kg": 0.491,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000080",
+      "dest_id": "T01",
+      "weight_kg": 1.581,
+      "priority": 3,
+      "window": {
+        "start": "08:00",
+        "end": "09:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000081",
+      "dest_id": "D02",
+      "weight_kg": 0.366,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000082",
+      "dest_id": "D09",
+      "weight_kg": 0.204,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000083",
+      "dest_id": "D09",
+      "weight_kg": 0.583,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000084",
+      "dest_id": "D04",
+      "weight_kg": 0.628,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000085",
+      "dest_id": "D06",
+      "weight_kg": 0.332,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000086",
+      "dest_id": "T06",
+      "weight_kg": 0.66,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000087",
+      "dest_id": "T04",
+      "weight_kg": 0.423,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000088",
+      "dest_id": "D11",
+      "weight_kg": 0.738,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000089",
+      "dest_id": "T07",
+      "weight_kg": 0.456,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000090",
+      "dest_id": "T06",
+      "weight_kg": 0.436,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000091",
+      "dest_id": "D10",
+      "weight_kg": 0.797,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000092",
+      "dest_id": "D09",
+      "weight_kg": 0.361,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000093",
+      "dest_id": "T05",
+      "weight_kg": 0.57,
+      "priority": 3,
+      "window": {
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000094",
+      "dest_id": "T07",
+      "weight_kg": 0.755,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000095",
+      "dest_id": "T07",
+      "weight_kg": 0.746,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000096",
+      "dest_id": "D07",
+      "weight_kg": 0.272,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000097",
+      "dest_id": "D10",
+      "weight_kg": 0.367,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000098",
+      "dest_id": "D06",
+      "weight_kg": 0.547,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000099",
+      "dest_id": "D01",
+      "weight_kg": 0.324,
+      "priority": 3,
+      "window": {
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000100",
+      "dest_id": "D05",
+      "weight_kg": 0.654,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000101",
+      "dest_id": "T02",
+      "weight_kg": 0.494,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000102",
+      "dest_id": "T03",
+      "weight_kg": 0.686,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000103",
+      "dest_id": "T05",
+      "weight_kg": 0.779,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000104",
+      "dest_id": "D12",
+      "weight_kg": 1.622,
+      "priority": 3,
+      "window": {
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000105",
+      "dest_id": "T01",
+      "weight_kg": 0.394,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000106",
+      "dest_id": "D02",
+      "weight_kg": 0.44,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000107",
+      "dest_id": "G01",
+      "weight_kg": 0.751,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000108",
+      "dest_id": "D06",
+      "weight_kg": 0.633,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000109",
+      "dest_id": "D12",
+      "weight_kg": 0.477,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000110",
+      "dest_id": "T02",
+      "weight_kg": 0.47,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000111",
+      "dest_id": "D11",
+      "weight_kg": 0.548,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000112",
+      "dest_id": "T07",
+      "weight_kg": 0.647,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000113",
+      "dest_id": "D10",
+      "weight_kg": 0.578,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000114",
+      "dest_id": "D10",
+      "weight_kg": 0.66,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000115",
+      "dest_id": "T02",
+      "weight_kg": 0.679,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000116",
+      "dest_id": "D07",
+      "weight_kg": 0.7,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000117",
+      "dest_id": "D08",
+      "weight_kg": 0.259,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000118",
+      "dest_id": "D10",
+      "weight_kg": 0.212,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000119",
+      "dest_id": "D08",
+      "weight_kg": 0.613,
+      "priority": 3,
+      "window": {
+        "start": "08:00",
+        "end": "09:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000120",
+      "dest_id": "D10",
+      "weight_kg": 0.4,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000121",
+      "dest_id": "D01",
+      "weight_kg": 0.535,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000122",
+      "dest_id": "D01",
+      "weight_kg": 0.644,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000123",
+      "dest_id": "D06",
+      "weight_kg": 0.72,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000124",
+      "dest_id": "D05",
+      "weight_kg": 0.218,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000125",
+      "dest_id": "T05",
+      "weight_kg": 0.76,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000126",
+      "dest_id": "D04",
+      "weight_kg": 0.299,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000127",
+      "dest_id": "T07",
+      "weight_kg": 0.357,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000128",
+      "dest_id": "D09",
+      "weight_kg": 0.464,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000129",
+      "dest_id": "D05",
+      "weight_kg": 0.631,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000130",
+      "dest_id": "D05",
+      "weight_kg": 0.757,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000131",
+      "dest_id": "T07",
+      "weight_kg": 0.33,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000132",
+      "dest_id": "D01",
+      "weight_kg": 0.703,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000133",
+      "dest_id": "D02",
+      "weight_kg": 0.34,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000134",
+      "dest_id": "D07",
+      "weight_kg": 0.37,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000135",
+      "dest_id": "D09",
+      "weight_kg": 0.398,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000136",
+      "dest_id": "D10",
+      "weight_kg": 2.554,
+      "priority": 3,
+      "window": {
+        "start": "08:00",
+        "end": "09:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000137",
+      "dest_id": "T03",
+      "weight_kg": 0.372,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000138",
+      "dest_id": "D03",
+      "weight_kg": 0.218,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000139",
+      "dest_id": "D06",
+      "weight_kg": 0.353,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000140",
+      "dest_id": "D01",
+      "weight_kg": 0.221,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000141",
+      "dest_id": "D01",
+      "weight_kg": 0.668,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000142",
+      "dest_id": "D07",
+      "weight_kg": 0.647,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000143",
+      "dest_id": "D11",
+      "weight_kg": 0.579,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000144",
+      "dest_id": "T07",
+      "weight_kg": 0.553,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000145",
+      "dest_id": "L01",
+      "weight_kg": 0.536,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000146",
+      "dest_id": "D08",
+      "weight_kg": 0.523,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000147",
+      "dest_id": "D11",
+      "weight_kg": 0.646,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000148",
+      "dest_id": "D12",
+      "weight_kg": 0.258,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000149",
+      "dest_id": "D01",
+      "weight_kg": 0.232,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000150",
+      "dest_id": "D02",
+      "weight_kg": 0.26,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000151",
+      "dest_id": "D05",
+      "weight_kg": 0.277,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000152",
+      "dest_id": "D06",
+      "weight_kg": 1.954,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000153",
+      "dest_id": "D02",
+      "weight_kg": 0.716,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000154",
+      "dest_id": "D01",
+      "weight_kg": 0.428,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000155",
+      "dest_id": "D02",
+      "weight_kg": 0.347,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000156",
+      "dest_id": "D09",
+      "weight_kg": 0.435,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000157",
+      "dest_id": "T05",
+      "weight_kg": 0.469,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000158",
+      "dest_id": "T08",
+      "weight_kg": 0.699,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000159",
+      "dest_id": "D05",
+      "weight_kg": 0.395,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000160",
+      "dest_id": "D07",
+      "weight_kg": 2.593,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000161",
+      "dest_id": "D11",
+      "weight_kg": 0.364,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000162",
+      "dest_id": "D12",
+      "weight_kg": 0.289,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000163",
+      "dest_id": "T05",
+      "weight_kg": 0.471,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000164",
+      "dest_id": "D05",
+      "weight_kg": 0.782,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000165",
+      "dest_id": "T02",
+      "weight_kg": 0.514,
+      "priority": 3,
+      "window": {
+        "start": "08:00",
+        "end": "09:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000166",
+      "dest_id": "D09",
+      "weight_kg": 0.648,
+      "priority": 3,
+      "window": {
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000167",
+      "dest_id": "D06",
+      "weight_kg": 0.479,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000168",
+      "dest_id": "T08",
+      "weight_kg": 1.35,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000169",
+      "dest_id": "D04",
+      "weight_kg": 0.447,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000170",
+      "dest_id": "D12",
+      "weight_kg": 0.609,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000171",
+      "dest_id": "D12",
+      "weight_kg": 0.516,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000172",
+      "dest_id": "D01",
+      "weight_kg": 0.304,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000173",
+      "dest_id": "T03",
+      "weight_kg": 0.492,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000174",
+      "dest_id": "T01",
+      "weight_kg": 0.719,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000175",
+      "dest_id": "T04",
+      "weight_kg": 0.767,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000176",
+      "dest_id": "T01",
+      "weight_kg": 0.205,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000177",
+      "dest_id": "D09",
+      "weight_kg": 2.155,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000178",
+      "dest_id": "D08",
+      "weight_kg": 2.673,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000179",
+      "dest_id": "D07",
+      "weight_kg": 0.585,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000180",
+      "dest_id": "D09",
+      "weight_kg": 0.526,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000181",
+      "dest_id": "D09",
+      "weight_kg": 0.691,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000182",
+      "dest_id": "T07",
+      "weight_kg": 0.279,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000183",
+      "dest_id": "D07",
+      "weight_kg": 0.206,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000184",
+      "dest_id": "D07",
+      "weight_kg": 0.441,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000185",
+      "dest_id": "T06",
+      "weight_kg": 0.755,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000186",
+      "dest_id": "T03",
+      "weight_kg": 0.669,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000187",
+      "dest_id": "D10",
+      "weight_kg": 0.682,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000188",
+      "dest_id": "D08",
+      "weight_kg": 1.179,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000189",
+      "dest_id": "D04",
+      "weight_kg": 0.448,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000190",
+      "dest_id": "T06",
+      "weight_kg": 0.46,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000191",
+      "dest_id": "D12",
+      "weight_kg": 0.441,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000192",
+      "dest_id": "D07",
+      "weight_kg": 0.338,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000193",
+      "dest_id": "D01",
+      "weight_kg": 0.259,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000194",
+      "dest_id": "D10",
+      "weight_kg": 2.146,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000195",
+      "dest_id": "T08",
+      "weight_kg": 0.768,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000196",
+      "dest_id": "T07",
+      "weight_kg": 0.645,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000197",
+      "dest_id": "T08",
+      "weight_kg": 0.676,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000198",
+      "dest_id": "T03",
+      "weight_kg": 0.274,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000199",
+      "dest_id": "D07",
+      "weight_kg": 0.27,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000200",
+      "dest_id": "T03",
+      "weight_kg": 0.621,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000201",
+      "dest_id": "D03",
+      "weight_kg": 0.58,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000202",
+      "dest_id": "T01",
+      "weight_kg": 0.262,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000203",
+      "dest_id": "D12",
+      "weight_kg": 0.781,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000204",
+      "dest_id": "D04",
+      "weight_kg": 0.743,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000205",
+      "dest_id": "D02",
+      "weight_kg": 0.447,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000206",
+      "dest_id": "D02",
+      "weight_kg": 0.565,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000207",
+      "dest_id": "D03",
+      "weight_kg": 0.383,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000208",
+      "dest_id": "D08",
+      "weight_kg": 0.306,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000209",
+      "dest_id": "D12",
+      "weight_kg": 0.235,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000210",
+      "dest_id": "D05",
+      "weight_kg": 0.496,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000211",
+      "dest_id": "D05",
+      "weight_kg": 0.335,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000212",
+      "dest_id": "D10",
+      "weight_kg": 0.611,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000213",
+      "dest_id": "D04",
+      "weight_kg": 0.203,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000214",
+      "dest_id": "D01",
+      "weight_kg": 1.294,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000215",
+      "dest_id": "D11",
+      "weight_kg": 0.631,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000216",
+      "dest_id": "D06",
+      "weight_kg": 0.35,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000217",
+      "dest_id": "D12",
+      "weight_kg": 0.255,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000218",
+      "dest_id": "T08",
+      "weight_kg": 0.23,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000219",
+      "dest_id": "D01",
+      "weight_kg": 0.632,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000220",
+      "dest_id": "D11",
+      "weight_kg": 0.509,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000221",
+      "dest_id": "D05",
+      "weight_kg": 0.675,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000222",
+      "dest_id": "D12",
+      "weight_kg": 0.607,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000223",
+      "dest_id": "D10",
+      "weight_kg": 0.436,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000224",
+      "dest_id": "T05",
+      "weight_kg": 1.919,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000225",
+      "dest_id": "D03",
+      "weight_kg": 0.212,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000226",
+      "dest_id": "D09",
+      "weight_kg": 0.442,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000227",
+      "dest_id": "D02",
+      "weight_kg": 0.706,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000228",
+      "dest_id": "D12",
+      "weight_kg": 0.467,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000229",
+      "dest_id": "D02",
+      "weight_kg": 0.696,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000230",
+      "dest_id": "D08",
+      "weight_kg": 0.375,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000231",
+      "dest_id": "D03",
+      "weight_kg": 0.786,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000232",
+      "dest_id": "D03",
+      "weight_kg": 0.206,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000233",
+      "dest_id": "T02",
+      "weight_kg": 0.668,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000234",
+      "dest_id": "D10",
+      "weight_kg": 0.563,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000235",
+      "dest_id": "D01",
+      "weight_kg": 0.618,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000236",
+      "dest_id": "T01",
+      "weight_kg": 0.658,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000237",
+      "dest_id": "D09",
+      "weight_kg": 0.692,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000238",
+      "dest_id": "D04",
+      "weight_kg": 0.771,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000239",
+      "dest_id": "T04",
+      "weight_kg": 0.388,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000240",
+      "dest_id": "T04",
+      "weight_kg": 0.449,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000241",
+      "dest_id": "D06",
+      "weight_kg": 0.62,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000242",
+      "dest_id": "D10",
+      "weight_kg": 0.268,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000243",
+      "dest_id": "D08",
+      "weight_kg": 0.654,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000244",
+      "dest_id": "D02",
+      "weight_kg": 0.43,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000245",
+      "dest_id": "T02",
+      "weight_kg": 1.538,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000246",
+      "dest_id": "T07",
+      "weight_kg": 0.422,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000247",
+      "dest_id": "D11",
+      "weight_kg": 0.439,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000248",
+      "dest_id": "D02",
+      "weight_kg": 0.29,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000249",
+      "dest_id": "D06",
+      "weight_kg": 0.765,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000250",
+      "dest_id": "D07",
+      "weight_kg": 0.293,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000251",
+      "dest_id": "D09",
+      "weight_kg": 1.672,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000252",
+      "dest_id": "D10",
+      "weight_kg": 0.434,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000253",
+      "dest_id": "C01",
+      "weight_kg": 0.597,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000254",
+      "dest_id": "D06",
+      "weight_kg": 0.551,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000255",
+      "dest_id": "D08",
+      "weight_kg": 0.635,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000256",
+      "dest_id": "D11",
+      "weight_kg": 0.668,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000257",
+      "dest_id": "D02",
+      "weight_kg": 1.008,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000258",
+      "dest_id": "T01",
+      "weight_kg": 0.213,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000259",
+      "dest_id": "T03",
+      "weight_kg": 0.28,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000260",
+      "dest_id": "D09",
+      "weight_kg": 0.682,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000261",
+      "dest_id": "D09",
+      "weight_kg": 0.497,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000262",
+      "dest_id": "D05",
+      "weight_kg": 0.707,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000263",
+      "dest_id": "E02",
+      "weight_kg": 0.286,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000264",
+      "dest_id": "D04",
+      "weight_kg": 0.208,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000265",
+      "dest_id": "T07",
+      "weight_kg": 0.681,
+      "priority": 3,
+      "window": {
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000266",
+      "dest_id": "D09",
+      "weight_kg": 0.344,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000267",
+      "dest_id": "D02",
+      "weight_kg": 2.856,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000268",
+      "dest_id": "D03",
+      "weight_kg": 0.43,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000269",
+      "dest_id": "D11",
+      "weight_kg": 0.528,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000270",
+      "dest_id": "T06",
+      "weight_kg": 0.597,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000271",
+      "dest_id": "T08",
+      "weight_kg": 0.626,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000272",
+      "dest_id": "D06",
+      "weight_kg": 0.379,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000273",
+      "dest_id": "D11",
+      "weight_kg": 0.653,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000274",
+      "dest_id": "D04",
+      "weight_kg": 0.279,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000275",
+      "dest_id": "T06",
+      "weight_kg": 0.58,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000276",
+      "dest_id": "D04",
+      "weight_kg": 0.744,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000277",
+      "dest_id": "D11",
+      "weight_kg": 0.51,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000278",
+      "dest_id": "T01",
+      "weight_kg": 0.685,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000279",
+      "dest_id": "T08",
+      "weight_kg": 0.338,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000280",
+      "dest_id": "D01",
+      "weight_kg": 0.781,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000281",
+      "dest_id": "D12",
+      "weight_kg": 0.602,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000282",
+      "dest_id": "T02",
+      "weight_kg": 0.227,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000283",
+      "dest_id": "D04",
+      "weight_kg": 0.256,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000284",
+      "dest_id": "D11",
+      "weight_kg": 0.313,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000285",
+      "dest_id": "D03",
+      "weight_kg": 0.318,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000286",
+      "dest_id": "D06",
+      "weight_kg": 0.231,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000287",
+      "dest_id": "D01",
+      "weight_kg": 0.763,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000288",
+      "dest_id": "D08",
+      "weight_kg": 0.701,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000289",
+      "dest_id": "D06",
+      "weight_kg": 0.743,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000290",
+      "dest_id": "D08",
+      "weight_kg": 1.47,
+      "priority": 3,
+      "window": {
+        "start": "16:00",
+        "end": "17:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000291",
+      "dest_id": "D12",
+      "weight_kg": 2.136,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000292",
+      "dest_id": "T01",
+      "weight_kg": 0.675,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000293",
+      "dest_id": "D09",
+      "weight_kg": 0.399,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000294",
+      "dest_id": "T06",
+      "weight_kg": 0.55,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000295",
+      "dest_id": "D08",
+      "weight_kg": 0.751,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000296",
+      "dest_id": "D09",
+      "weight_kg": 0.288,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000297",
+      "dest_id": "D09",
+      "weight_kg": 0.505,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000298",
+      "dest_id": "T02",
+      "weight_kg": 0.223,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000299",
+      "dest_id": "D01",
+      "weight_kg": 0.438,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000300",
+      "dest_id": "D05",
+      "weight_kg": 1.175,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000301",
+      "dest_id": "T06",
+      "weight_kg": 0.531,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000302",
+      "dest_id": "D10",
+      "weight_kg": 0.488,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000303",
+      "dest_id": "D12",
+      "weight_kg": 0.245,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000304",
+      "dest_id": "D05",
+      "weight_kg": 2.591,
+      "priority": 3,
+      "window": {
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000305",
+      "dest_id": "T01",
+      "weight_kg": 0.298,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000306",
+      "dest_id": "D09",
+      "weight_kg": 0.742,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000307",
+      "dest_id": "D04",
+      "weight_kg": 0.475,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000308",
+      "dest_id": "E02",
+      "weight_kg": 0.778,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000309",
+      "dest_id": "D12",
+      "weight_kg": 1.875,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000310",
+      "dest_id": "D03",
+      "weight_kg": 2.482,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000311",
+      "dest_id": "D02",
+      "weight_kg": 0.32,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000312",
+      "dest_id": "D07",
+      "weight_kg": 0.767,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000313",
+      "dest_id": "D01",
+      "weight_kg": 0.378,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000314",
+      "dest_id": "T06",
+      "weight_kg": 0.492,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000315",
+      "dest_id": "T06",
+      "weight_kg": 0.549,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000316",
+      "dest_id": "D06",
+      "weight_kg": 0.683,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000317",
+      "dest_id": "T07",
+      "weight_kg": 0.643,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000318",
+      "dest_id": "T05",
+      "weight_kg": 0.361,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000319",
+      "dest_id": "T02",
+      "weight_kg": 0.355,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000320",
+      "dest_id": "D05",
+      "weight_kg": 0.475,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000321",
+      "dest_id": "D06",
+      "weight_kg": 0.755,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000322",
+      "dest_id": "D11",
+      "weight_kg": 0.233,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000323",
+      "dest_id": "D02",
+      "weight_kg": 0.525,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000324",
+      "dest_id": "D01",
+      "weight_kg": 0.554,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000325",
+      "dest_id": "L01",
+      "weight_kg": 0.397,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000326",
+      "dest_id": "D11",
+      "weight_kg": 0.614,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000327",
+      "dest_id": "T07",
+      "weight_kg": 2.217,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000328",
+      "dest_id": "D11",
+      "weight_kg": 0.427,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000329",
+      "dest_id": "T06",
+      "weight_kg": 0.445,
+      "priority": 3,
+      "window": {
+        "start": "08:00",
+        "end": "09:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000330",
+      "dest_id": "D04",
+      "weight_kg": 0.346,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000331",
+      "dest_id": "D06",
+      "weight_kg": 0.38,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000332",
+      "dest_id": "D12",
+      "weight_kg": 0.303,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000333",
+      "dest_id": "D03",
+      "weight_kg": 0.725,
+      "priority": 3,
+      "window": {
+        "start": "16:00",
+        "end": "17:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000334",
+      "dest_id": "D08",
+      "weight_kg": 0.375,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000335",
+      "dest_id": "D09",
+      "weight_kg": 0.651,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000336",
+      "dest_id": "D10",
+      "weight_kg": 0.649,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000337",
+      "dest_id": "D12",
+      "weight_kg": 0.671,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000338",
+      "dest_id": "D01",
+      "weight_kg": 0.754,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000339",
+      "dest_id": "T08",
+      "weight_kg": 0.454,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000340",
+      "dest_id": "D12",
+      "weight_kg": 1.983,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000341",
+      "dest_id": "D05",
+      "weight_kg": 0.481,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000342",
+      "dest_id": "D04",
+      "weight_kg": 0.31,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000343",
+      "dest_id": "D06",
+      "weight_kg": 1.519,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000344",
+      "dest_id": "D02",
+      "weight_kg": 0.331,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000345",
+      "dest_id": "D03",
+      "weight_kg": 1.49,
+      "priority": 3,
+      "window": {
+        "start": "08:00",
+        "end": "09:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000346",
+      "dest_id": "D12",
+      "weight_kg": 0.226,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000347",
+      "dest_id": "D05",
+      "weight_kg": 0.676,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000348",
+      "dest_id": "D11",
+      "weight_kg": 2.402,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000349",
+      "dest_id": "D02",
+      "weight_kg": 0.628,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000350",
+      "dest_id": "D09",
+      "weight_kg": 0.659,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000351",
+      "dest_id": "D05",
+      "weight_kg": 0.432,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000352",
+      "dest_id": "D07",
+      "weight_kg": 0.746,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000353",
+      "dest_id": "D10",
+      "weight_kg": 0.462,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000354",
+      "dest_id": "D05",
+      "weight_kg": 0.422,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000355",
+      "dest_id": "D07",
+      "weight_kg": 0.507,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000356",
+      "dest_id": "D06",
+      "weight_kg": 0.723,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000357",
+      "dest_id": "D11",
+      "weight_kg": 0.291,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000358",
+      "dest_id": "D03",
+      "weight_kg": 0.587,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000359",
+      "dest_id": "D03",
+      "weight_kg": 1.139,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000360",
+      "dest_id": "D06",
+      "weight_kg": 0.611,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000361",
+      "dest_id": "D01",
+      "weight_kg": 0.636,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000362",
+      "dest_id": "D03",
+      "weight_kg": 0.722,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000363",
+      "dest_id": "T03",
+      "weight_kg": 0.272,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000364",
+      "dest_id": "T07",
+      "weight_kg": 0.627,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000365",
+      "dest_id": "T01",
+      "weight_kg": 0.442,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000366",
+      "dest_id": "D06",
+      "weight_kg": 0.204,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000367",
+      "dest_id": "D02",
+      "weight_kg": 0.36,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000368",
+      "dest_id": "D03",
+      "weight_kg": 0.464,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000369",
+      "dest_id": "D08",
+      "weight_kg": 0.683,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000370",
+      "dest_id": "D05",
+      "weight_kg": 0.325,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000371",
+      "dest_id": "D03",
+      "weight_kg": 0.249,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000372",
+      "dest_id": "D04",
+      "weight_kg": 2.216,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000373",
+      "dest_id": "D03",
+      "weight_kg": 0.734,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000374",
+      "dest_id": "D09",
+      "weight_kg": 0.41,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000375",
+      "dest_id": "D08",
+      "weight_kg": 0.734,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000376",
+      "dest_id": "D09",
+      "weight_kg": 0.357,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000377",
+      "dest_id": "T08",
+      "weight_kg": 1.196,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000378",
+      "dest_id": "D05",
+      "weight_kg": 0.771,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000379",
+      "dest_id": "D07",
+      "weight_kg": 0.229,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000380",
+      "dest_id": "D07",
+      "weight_kg": 0.661,
+      "priority": 3,
+      "window": {
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000381",
+      "dest_id": "D12",
+      "weight_kg": 0.605,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000382",
+      "dest_id": "D05",
+      "weight_kg": 0.647,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000383",
+      "dest_id": "D11",
+      "weight_kg": 0.489,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000384",
+      "dest_id": "D11",
+      "weight_kg": 0.955,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000385",
+      "dest_id": "D08",
+      "weight_kg": 0.75,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000386",
+      "dest_id": "T01",
+      "weight_kg": 0.432,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000387",
+      "dest_id": "D12",
+      "weight_kg": 0.553,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000388",
+      "dest_id": "D01",
+      "weight_kg": 0.613,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000389",
+      "dest_id": "D11",
+      "weight_kg": 0.723,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000390",
+      "dest_id": "D03",
+      "weight_kg": 0.54,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000391",
+      "dest_id": "T07",
+      "weight_kg": 0.546,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000392",
+      "dest_id": "T04",
+      "weight_kg": 0.506,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000393",
+      "dest_id": "T08",
+      "weight_kg": 0.283,
+      "priority": 3,
+      "window": {
+        "start": "08:00",
+        "end": "09:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000394",
+      "dest_id": "D03",
+      "weight_kg": 0.624,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000395",
+      "dest_id": "D08",
+      "weight_kg": 0.569,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000396",
+      "dest_id": "T07",
+      "weight_kg": 0.293,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000397",
+      "dest_id": "C02",
+      "weight_kg": 0.628,
+      "priority": 3,
+      "window": {
+        "start": "08:00",
+        "end": "09:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000398",
+      "dest_id": "D08",
+      "weight_kg": 0.52,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000399",
+      "dest_id": "D06",
+      "weight_kg": 0.258,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000400",
+      "dest_id": "D06",
+      "weight_kg": 0.513,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000401",
+      "dest_id": "D10",
+      "weight_kg": 0.374,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000402",
+      "dest_id": "D06",
+      "weight_kg": 0.665,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000403",
+      "dest_id": "D09",
+      "weight_kg": 0.53,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000404",
+      "dest_id": "D07",
+      "weight_kg": 0.261,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000405",
+      "dest_id": "D01",
+      "weight_kg": 0.504,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000406",
+      "dest_id": "D03",
+      "weight_kg": 0.568,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000407",
+      "dest_id": "T03",
+      "weight_kg": 0.783,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000408",
+      "dest_id": "D10",
+      "weight_kg": 0.59,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000409",
+      "dest_id": "D03",
+      "weight_kg": 1.134,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000410",
+      "dest_id": "D06",
+      "weight_kg": 0.433,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000411",
+      "dest_id": "D12",
+      "weight_kg": 0.432,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000412",
+      "dest_id": "T03",
+      "weight_kg": 0.467,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000413",
+      "dest_id": "D07",
+      "weight_kg": 0.694,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000414",
+      "dest_id": "T07",
+      "weight_kg": 0.392,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000415",
+      "dest_id": "D10",
+      "weight_kg": 0.694,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000416",
+      "dest_id": "T05",
+      "weight_kg": 0.76,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000417",
+      "dest_id": "D01",
+      "weight_kg": 0.766,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000418",
+      "dest_id": "D06",
+      "weight_kg": 0.741,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000419",
+      "dest_id": "T08",
+      "weight_kg": 0.619,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000420",
+      "dest_id": "D11",
+      "weight_kg": 0.781,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000421",
+      "dest_id": "D06",
+      "weight_kg": 0.694,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000422",
+      "dest_id": "D05",
+      "weight_kg": 0.809,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000423",
+      "dest_id": "D06",
+      "weight_kg": 0.675,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000424",
+      "dest_id": "T02",
+      "weight_kg": 0.462,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000425",
+      "dest_id": "D09",
+      "weight_kg": 0.325,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000426",
+      "dest_id": "D03",
+      "weight_kg": 0.288,
+      "priority": 3,
+      "window": {
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000427",
+      "dest_id": "D07",
+      "weight_kg": 0.4,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000428",
+      "dest_id": "T01",
+      "weight_kg": 0.212,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000429",
+      "dest_id": "E01",
+      "weight_kg": 0.221,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000430",
+      "dest_id": "D11",
+      "weight_kg": 0.286,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000431",
+      "dest_id": "D06",
+      "weight_kg": 0.43,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000432",
+      "dest_id": "D01",
+      "weight_kg": 0.324,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000433",
+      "dest_id": "T05",
+      "weight_kg": 2.603,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000434",
+      "dest_id": "D03",
+      "weight_kg": 0.399,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000435",
+      "dest_id": "D07",
+      "weight_kg": 0.286,
+      "priority": 3,
+      "window": {
+        "start": "16:00",
+        "end": "17:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000436",
+      "dest_id": "D06",
+      "weight_kg": 0.421,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000437",
+      "dest_id": "D09",
+      "weight_kg": 0.344,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000438",
+      "dest_id": "D04",
+      "weight_kg": 0.233,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000439",
+      "dest_id": "T01",
+      "weight_kg": 2.68,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000440",
+      "dest_id": "D05",
+      "weight_kg": 0.596,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000441",
+      "dest_id": "T05",
+      "weight_kg": 0.278,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000442",
+      "dest_id": "T05",
+      "weight_kg": 0.705,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000443",
+      "dest_id": "D04",
+      "weight_kg": 0.683,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000444",
+      "dest_id": "D06",
+      "weight_kg": 0.216,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000445",
+      "dest_id": "D01",
+      "weight_kg": 1.997,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000446",
+      "dest_id": "D08",
+      "weight_kg": 0.527,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000447",
+      "dest_id": "D07",
+      "weight_kg": 0.64,
+      "priority": 3,
+      "window": {
+        "start": "16:00",
+        "end": "17:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000448",
+      "dest_id": "D07",
+      "weight_kg": 0.413,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000449",
+      "dest_id": "T04",
+      "weight_kg": 1.75,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000450",
+      "dest_id": "T07",
+      "weight_kg": 0.544,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000451",
+      "dest_id": "D09",
+      "weight_kg": 0.217,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000452",
+      "dest_id": "T05",
+      "weight_kg": 0.797,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000453",
+      "dest_id": "D05",
+      "weight_kg": 0.233,
+      "priority": 3,
+      "window": {
+        "start": "16:00",
+        "end": "17:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000454",
+      "dest_id": "D08",
+      "weight_kg": 0.551,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000455",
+      "dest_id": "D03",
+      "weight_kg": 0.6,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000456",
+      "dest_id": "D07",
+      "weight_kg": 0.578,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000457",
+      "dest_id": "D05",
+      "weight_kg": 0.693,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000458",
+      "dest_id": "D02",
+      "weight_kg": 0.525,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000459",
+      "dest_id": "D05",
+      "weight_kg": 0.711,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000460",
+      "dest_id": "D07",
+      "weight_kg": 0.275,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000461",
+      "dest_id": "T08",
+      "weight_kg": 0.239,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000462",
+      "dest_id": "D08",
+      "weight_kg": 0.501,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000463",
+      "dest_id": "D01",
+      "weight_kg": 0.563,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000464",
+      "dest_id": "D10",
+      "weight_kg": 1.896,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000465",
+      "dest_id": "D06",
+      "weight_kg": 0.233,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000466",
+      "dest_id": "D02",
+      "weight_kg": 0.32,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000467",
+      "dest_id": "D09",
+      "weight_kg": 1.576,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000468",
+      "dest_id": "D11",
+      "weight_kg": 0.372,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000469",
+      "dest_id": "T01",
+      "weight_kg": 2.982,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000470",
+      "dest_id": "D07",
+      "weight_kg": 0.704,
+      "priority": 3,
+      "window": {
+        "start": "16:00",
+        "end": "17:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000471",
+      "dest_id": "D01",
+      "weight_kg": 0.789,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000472",
+      "dest_id": "D12",
+      "weight_kg": 0.413,
+      "priority": 3,
+      "window": {
+        "start": "16:00",
+        "end": "17:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000473",
+      "dest_id": "T05",
+      "weight_kg": 0.765,
+      "priority": 3,
+      "window": {
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000474",
+      "dest_id": "D06",
+      "weight_kg": 0.331,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000475",
+      "dest_id": "D03",
+      "weight_kg": 0.611,
+      "priority": 2,
+      "window": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000476",
+      "dest_id": "T05",
+      "weight_kg": 0.358,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000477",
+      "dest_id": "T01",
+      "weight_kg": 0.614,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000478",
+      "dest_id": "D06",
+      "weight_kg": 0.719,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000479",
+      "dest_id": "D02",
+      "weight_kg": 0.621,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000480",
+      "dest_id": "D07",
+      "weight_kg": 0.495,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000481",
+      "dest_id": "D02",
+      "weight_kg": 0.783,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000482",
+      "dest_id": "T02",
+      "weight_kg": 0.285,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000483",
+      "dest_id": "D02",
+      "weight_kg": 0.321,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000484",
+      "dest_id": "D05",
+      "weight_kg": 0.66,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000485",
+      "dest_id": "D05",
+      "weight_kg": 0.741,
+      "priority": 3,
+      "window": {
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000486",
+      "dest_id": "D01",
+      "weight_kg": 0.473,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000487",
+      "dest_id": "D12",
+      "weight_kg": 0.783,
+      "priority": 1,
+      "window": {
+        "start": "08:00",
+        "end": "10:00"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000488",
+      "dest_id": "D01",
+      "weight_kg": 0.536,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000489",
+      "dest_id": "D06",
+      "weight_kg": 0.426,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000490",
+      "dest_id": "D01",
+      "weight_kg": 0.741,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000491",
+      "dest_id": "D02",
+      "weight_kg": 0.241,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000492",
+      "dest_id": "T02",
+      "weight_kg": 0.522,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000493",
+      "dest_id": "D10",
+      "weight_kg": 0.413,
+      "priority": 2,
+      "window": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000494",
+      "dest_id": "D09",
+      "weight_kg": 0.581,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000495",
+      "dest_id": "D11",
+      "weight_kg": 0.394,
+      "priority": 1,
+      "window": {
+        "start": "14:00",
+        "end": "16:00"
+      },
+      "bucket": 2
+    },
+    {
+      "id": "PKG000496",
+      "dest_id": "D05",
+      "weight_kg": 0.594,
+      "priority": 1,
+      "window": {
+        "start": "16:00",
+        "end": "18:00"
+      },
+      "bucket": 3
+    },
+    {
+      "id": "PKG000497",
+      "dest_id": "D04",
+      "weight_kg": 1.677,
+      "priority": 3,
+      "window": {
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000498",
+      "dest_id": "D02",
+      "weight_kg": 0.745,
+      "priority": 2,
+      "window": {
+        "start": "08:00",
+        "end": "09:30"
+      },
+      "bucket": 0
+    },
+    {
+      "id": "PKG000499",
+      "dest_id": "D04",
+      "weight_kg": 0.268,
+      "priority": 1,
+      "window": {
+        "start": "10:00",
+        "end": "12:00"
+      },
+      "bucket": 1
+    },
+    {
+      "id": "PKG000500",
+      "dest_id": "T05",
+      "weight_kg": 0.676,
+      "priority": 2,
+      "window": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "bucket": 2
+    }
+  ]
+}
