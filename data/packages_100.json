@@ -3,7 +3,7 @@
     "n": 100,
     "seed": 1,
     "generator": "campus_express 0.1.0",
-    "campus": "河南理工大学校园（模拟）",
+    "campus": "河南理工大学校园",
     "buckets": [
       {
         "id": 0,
