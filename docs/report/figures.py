@@ -157,7 +157,7 @@ def fig_campus(campus):
     ax.set_aspect("equal")
     ax.set_xlabel("x / m")
     ax.set_ylabel("y / m")
-    ax.set_title("模拟校园路网、30 个配送点与分拣中心", fontsize=11)
+    ax.set_title("校园路网、30 个配送点与分拣中心", fontsize=11)
     handles = [
         plt.Line2D([], [], marker="o", linestyle="", color=c, label=k)
         for k, c in [("宿舍", NAVY), ("教学", RED), ("食堂", SAND), ("其他", GREY)]
@@ -336,7 +336,7 @@ def fig_cli(campus, config, ctx):
     lines = [
         ("$ python run.py solve --packages data/packages_500.json --method savings_2opt", "#4EC9B0"),
         ("", "#D4D4D4"),
-        ("[load]  campus = HeNan Polytechnic (simulated)", "#D4D4D4"),
+        ("[load]  campus = Henan Polytechnic University campus", "#D4D4D4"),
         ("[load]  packages = 500, tasks = 96, couriers = 4", "#D4D4D4"),
         ("[sort]  method = cap_ls, overflow = 0, chutes = 10", "#D4D4D4"),
         ("[route] method = savings_2opt", "#D4D4D4"),

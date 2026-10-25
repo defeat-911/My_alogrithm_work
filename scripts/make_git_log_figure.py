@@ -63,7 +63,7 @@ def main() -> None:
                 "--decorate",
                 "--all",
                 "--date=short",
-                "--pretty=format:%h %ad %s",
+                "--pretty=format:%h %ad %d %s",
             ],
             cwd=ROOT,
             text=True,
