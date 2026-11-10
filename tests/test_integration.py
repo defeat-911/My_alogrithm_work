@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -32,6 +33,7 @@ def test_cli_help():
         capture_output=True,
         text=True,
         encoding="utf-8",
+        env={**os.environ, "PYTHONUTF8": "1"},
     )
     assert proc.returncode == 0
     assert "gen-data" in proc.stdout
@@ -55,6 +57,7 @@ def test_cli_gen_data(tmp_path):
         capture_output=True,
         text=True,
         encoding="utf-8",
+        env={**os.environ, "PYTHONUTF8": "1"},
     )
     assert proc.returncode == 0, proc.stderr
     assert out.exists()

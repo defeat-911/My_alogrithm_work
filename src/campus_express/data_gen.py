@@ -79,15 +79,17 @@ def check_instance(
     packages: list[Package],
     campus: Campus,
     config: dict[str, Any],
+    couriers_count: int | None = None,
 ) -> dict[str, Any]:
     courier_cfg = config["couriers"]
+    count = (
+        int(couriers_count)
+        if couriers_count is not None
+        else int(courier_cfg["count"])
+    )
     chute_capacity = sum(c.capacity_packages for c in campus.chutes.values())
-    courier_capacity = (
-        int(courier_cfg["count"]) * int(courier_cfg["capacity_packages"])
-    )
-    courier_weight = (
-        int(courier_cfg["count"]) * float(courier_cfg["capacity_kg"])
-    )
+    courier_capacity = count * int(courier_cfg["capacity_packages"])
+    courier_weight = count * float(courier_cfg["capacity_kg"])
     total_weight = sum(p.weight_kg for p in packages)
     per_point: dict[str, int] = defaultdict(int)
     for pkg in packages:
