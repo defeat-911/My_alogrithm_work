@@ -6,7 +6,7 @@ venv/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-
+docs/
 # Node / report pipeline
 node_modules/
 package-lock.json
