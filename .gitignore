@@ -21,6 +21,7 @@ results/metrics_500.csv
 results/summary_merged.json
 results/metrics_merged.csv
 results/test_solve.json
+results/ui_*.json
 
 # Report intermediates (keep report.md, figures, final docx/pdf)
 docs/report/report_body.docx

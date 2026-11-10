@@ -1,4 +1,4 @@
-"""Command-line interface and simple interactive menu."""
+"""Command-line interface and Rich terminal interface."""
 
 from __future__ import annotations
 
@@ -176,6 +176,21 @@ def cmd_inspect(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_ui(args: argparse.Namespace) -> int:
+    from .tui.app import run_tui
+
+    return run_tui(
+        campus=args.campus,
+        config=args.config,
+        packages=getattr(args, "packages", None),
+        data_dir=getattr(args, "data_dir", None),
+        results_dir=getattr(args, "results_dir", None),
+        couriers=getattr(args, "couriers", None),
+        seed=getattr(args, "seed", None),
+        quick=getattr(args, "quick", True),
+    )
+
+
 def cmd_benchmark(args: argparse.Namespace) -> int:
     from experiments.run_benchmark import run_benchmark
 
@@ -189,101 +204,28 @@ def cmd_benchmark(args: argparse.Namespace) -> int:
     return 0
 
 
-def _menu() -> int:
-    while True:
-        console.print("\n[bold]校园快递智能分拣与路径规划[/bold]")
-        console.print("1. 生成测试数据")
-        console.print("2. 运行分拣算法")
-        console.print("3. 运行路径算法")
-        console.print("4. 运行完整流水线")
-        console.print("5. 查看结果文件")
-        console.print("0. 退出")
-        choice = input("请选择: ").strip()
-        if choice == "0":
-            return 0
-        try:
-            if choice == "1":
-                n = int(input("包裹数 [100/300/500]: ") or "100")
-                seed = int(input("随机种子 [1]: ") or "1")
-                cmd_gen_data(
-                    argparse.Namespace(
-                        n=n,
-                        seed=seed,
-                        campus="data/campus.json",
-                        config="config/default.yaml",
-                        out=None,
-                    )
-                )
-            elif choice in {"2", "3", "4"}:
-                n = int(input("包裹数 [100/300/500]: ") or "300")
-                seed = int(input("随机种子 [1]: ") or "1")
-                couriers = int(input("快递员数 [4]: ") or "4")
-                method = input(
-                    "算法 [nn/insertion/savings/savings_2opt/alns]: "
-                ).strip() or "alns"
-                packages = f"data/packages_{n}.json"
-                if not Path(packages).exists():
-                    console.print(f"[red]{packages} 不存在，请先生成数据[/red]")
-                    continue
-                if choice == "2":
-                    cmd_sort(
-                        argparse.Namespace(
-                            packages=packages,
-                            campus="data/campus.json",
-                            config="config/default.yaml",
-                            method=method
-                            if method in {"grid", "sweep", "kmeans", "cap_kmeans", "cap_ls"}
-                            else "cap_ls",
-                            seed=seed,
-                            couriers=couriers,
-                            out=None,
-                        )
-                    )
-                elif choice == "3":
-                    cmd_route(
-                        argparse.Namespace(
-                            packages=packages,
-                            campus="data/campus.json",
-                            config="config/default.yaml",
-                            method=method,
-                            seed=seed,
-                            couriers=couriers,
-                            quick=False,
-                            out=None,
-                        )
-                    )
-                else:
-                    cmd_solve(
-                        argparse.Namespace(
-                            packages=packages,
-                            campus="data/campus.json",
-                            config="config/default.yaml",
-                            method=method,
-                            sorting="cap_ls",
-                            seed=seed,
-                            couriers=couriers,
-                            quick=False,
-                            out=None,
-                        )
-                    )
-            elif choice == "5":
-                path = input("结果 JSON 路径: ").strip()
-                if path:
-                    cmd_inspect(argparse.Namespace(result=path))
-            else:
-                console.print("[red]无效选项[/red]")
-        except Exception as exc:  # pragma: no cover - interactive UX
-            console.print(f"[red]错误: {exc}[/red]")
-
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="campus-express",
-        description="校园快递智能分拣与路径规划（v1）",
+        description="校园快递智能分拣与路径规划（v2）",
     )
-    parser.add_argument("--campus", default="data/campus.json")
-    parser.add_argument("--config", default="config/default.yaml")
+    parser.add_argument("--campus", default=None)
+    parser.add_argument("--config", default=None)
     sub = parser.add_subparsers(dest="command")
+
+    ui = sub.add_parser("ui", help="open the Rich terminal interface")
+    ui.add_argument("--packages", default=None)
+    ui.add_argument("--data-dir", default=None)
+    ui.add_argument("--results-dir", default=None)
+    ui.add_argument("--couriers", type=int, default=None)
+    ui.add_argument("--seed", type=int, default=None)
+    ui.add_argument(
+        "--full",
+        dest="quick",
+        action="store_false",
+        help="use full ALNS instead of quick mode",
+    )
+    ui.set_defaults(func=cmd_ui, quick=True)
 
     gen = sub.add_parser("gen-data", help="generate a reproducible package dataset")
     gen.add_argument("--n", type=int, default=100)
@@ -353,7 +295,13 @@ def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
     if not getattr(args, "command", None):
-        return _menu()
+        return cmd_ui(args)
+    if args.command == "ui":
+        return int(args.func(args))
+    if args.campus is None:
+        args.campus = "data/campus.json"
+    if args.config is None:
+        args.config = "config/default.yaml"
     return int(args.func(args))
 
 

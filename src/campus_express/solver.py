@@ -251,6 +251,7 @@ def solve_routing(
     method: str = "alns",
     seed: int = 1,
     quick: bool = False,
+    time_limit_s: float | None = None,
 ) -> tuple[Solution, ALNSResult | None]:
     routing_ctx = ctx.routing
     if method == "nn":
@@ -268,6 +269,7 @@ def solve_routing(
     s2 = cheapest_insertion(routing_ctx)
     initial = s1 if s1.metrics["objective"] <= s2.metrics["objective"] else s2
     cfg = ctx.config["routing"]
+    limit = float(cfg["time_limit_s"]) if time_limit_s is None else float(time_limit_s)
     params = ALNSParams(
         iterations=int(cfg["alns_quick_iterations"] if quick else cfg["alns_iterations"]),
         destroy_fraction=float(cfg["destroy_fraction"]),
@@ -276,7 +278,7 @@ def solve_routing(
         segment=int(cfg["segment"]),
         reaction=float(cfg["reaction"]),
         seed=seed,
-        time_limit_s=float(cfg["time_limit_s"]),
+        time_limit_s=limit,
     )
     result = alns(routing_ctx, initial, params)
     return result.best, result
