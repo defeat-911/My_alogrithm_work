@@ -6,7 +6,7 @@ venv/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-
+docs/
 # Node / report pipeline
 node_modules/
 package-lock.json
@@ -21,16 +21,7 @@ results/metrics_500.csv
 results/summary_merged.json
 results/metrics_merged.csv
 results/test_solve.json
-
-# Report intermediates (keep report.md, figures, final docx/pdf)
-docs/report/report_body.docx
-docs/report/report_base.docx
-docs/report/report_draft.docx
-docs/report/report_draft.pdf
-docs/report/sample_body.docx
-docs/report/sample_merged.docx
-docs/report/sample_merged.pdf
-docs/report/figures/sample.png
+results/ui_*.json
 
 # Office temp files
 ~$*.docx
@@ -43,3 +34,6 @@ docs/report/figures/sample.png
 Thumbs.db
 .idea/
 .vscode/
+# 报告模板
+算法课程设计通知及报告模版2026.docx
+选题.md
