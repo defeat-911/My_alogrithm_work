@@ -23,16 +23,6 @@ results/metrics_merged.csv
 results/test_solve.json
 results/ui_*.json
 
-# Report intermediates (keep report.md, figures, final docx/pdf)
-docs/report/report_body.docx
-docs/report/report_base.docx
-docs/report/report_draft.docx
-docs/report/report_draft.pdf
-docs/report/sample_body.docx
-docs/report/sample_merged.docx
-docs/report/sample_merged.pdf
-docs/report/figures/sample.png
-
 # Office temp files
 ~$*.docx
 ~$*.pptx
