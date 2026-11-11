@@ -207,7 +207,7 @@ def cmd_benchmark(args: argparse.Namespace) -> int:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="campus-express",
-        description="校园快递智能分拣与路径规划（v2）",
+        description="校园快递智能分拣与路径规划",
     )
     parser.add_argument("--campus", default=None)
     parser.add_argument("--config", default=None)

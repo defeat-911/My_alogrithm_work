@@ -1,9 +1,5 @@
 # 校园快递智能分拣与路径规划
 
-算法设计与分析课程设计（v1：核心算法与测试）。
-
-## 目标
-
 模拟一个校园快递分拣中心：30 个配送点、10 个分拣格口、100/300/500 件快递、4 名快递员。系统完成两件事：
 
 1. **分拣**：把配送点划分到 10 个格口（容量约束 + 工作量均衡）。
@@ -44,25 +40,8 @@ docs/personalization_checklist.md
 scripts/                  # 数据构建、优化基准、Git 日志图
 ```
 
-## 实验与报告
-
-```bash
-python experiments/run_benchmark.py --scales 100 300 500 --seeds 1 2 3 4 5
-python docs/report/figures.py
-python docs/report/build_report.py
-```
-
-`build_report.py` 会填数、生成图、构建 body-only docx、合并进课程模板、更新目录并导出 PDF。输出为 `docs/算法_班级_学号_姓名.docx` 与 `.pdf`；封面个人信息由本人填写。
-
-## 版本
-
-- v1：核心算法 + 测试 + 实验 + 报告草稿（CLI）。
-- v2：终端图形界面（待 v1 确认后设计）。
-- v3：扩展功能（待 v1 确认后设计）。
-
 ## 说明
 
-- 测试数据由 `config/default.yaml` 与随机种子生成，不硬编码在源码中。
+- 测试数据由 `config/default.yaml` 与随机种子生成。
 - 分拣聚类使用欧氏坐标作为代理，评价与局部搜索使用路网最短路距离。
 - 主实验使用硬时间窗；压力实验使用软时间窗 + 迟到罚分。
-- 多快递员问题不宣称全局最优；只在单路径小规模实例报告最优性 Gap。
